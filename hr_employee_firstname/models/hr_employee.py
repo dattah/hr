@@ -9,7 +9,7 @@ from odoo.exceptions import ValidationError
 
 _logger = logging.getLogger(__name__)
 
-UPDATE_PARTNER_FIELDS = ["firstname", "lastname", "user_id", "address_home_id"]
+UPDATE_PARTNER_FIELDS = ["firstname", "lastname", "user_id", "address_id"]
 
 
 class HrEmployee(models.Model):
